@@ -1,8 +1,6 @@
-package test.instanceofoperator;
+package instanceofoperator;
 
-import classfile.Child;
 import test.Student;
-
 import java.util.ArrayList;
 
 public class ArrayInstanceOfDemo {

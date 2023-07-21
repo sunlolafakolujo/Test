@@ -1,4 +1,4 @@
-package test.instanceofoperator;
+package instanceofoperator;
 
 
 public class ObjectArrayDemo {
