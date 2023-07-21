@@ -15,6 +15,5 @@ public class ForLoopDemo {
         for (int i=k.length-1; i>=0; i--){
             System.out.print(k[i] + " ");
         }
-
     }
 }
