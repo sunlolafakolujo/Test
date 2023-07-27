@@ -9,6 +9,10 @@ public class Test {
     boolean c;
     String s;
     static String g="Good Job";
+
+    public Test() {
+    }
+
     public static void main(String[] args){
         for (int i=1; i<= args.length; i++) {
             System.out.println(args[i]);
