@@ -1,4 +1,4 @@
-package oopsconcept;
+package oopsconcepts.inheritanceconcept;
 
 public abstract class Example1 {
     abstract public void message();

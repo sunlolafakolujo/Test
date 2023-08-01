@@ -1,4 +1,4 @@
-package oopsconcept;
+package oopsconcepts.inheritanceconcept;
 
 public class ExampleTest extends Example2 implements Example3,Example4{
     @Override

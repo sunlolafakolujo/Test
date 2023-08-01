@@ -19,5 +19,15 @@ public class SwitchExample {
                 System.out.println("default");
 
         }
+
+        int i=30;
+        switch (i) {
+            default:
+                System.out.println("Not a value");
+            case 30:
+                System.out.println("30");
+            case 40:
+                System.out.println("40");
+        }
     }
 }

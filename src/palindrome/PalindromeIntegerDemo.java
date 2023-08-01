@@ -2,7 +2,7 @@ package palindrome;
 
 import java.util.Scanner;
 
-public class PalindromeForIntegerDemo {
+public class PalindromeIntegerDemo {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int r,sum=0,temp;
