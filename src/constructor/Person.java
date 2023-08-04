@@ -2,35 +2,37 @@ package constructor;
 
 public class Person {
     private int id;
-    String name;
-    int age;
-    int count=0;
+    private String name;
+    private int age;
 
-    {
-        count++;
-    }
     public Person() {
         System.out.println("No-arg constructor");
     }
 
     public Person(int id, String name, int age) {
-        this(name, age);
+        this();
         this.id = id;
         this.name = name;
         this.age = age;
     }
 
-    public Person(String name, int age) {
-        this();
-        this.name = name;
-        this.age = age;
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
     }
 
     public static void main(String[] args) {
         Person p = new Person(101,"John",20);
-        System.out.println(p.count+" "+p);
-        Person p1=new Person("Johnny",24);
-        System.out.println(p1.count+" "+p1);
+        Person p1 = new Person(102,"Johnny",30);
+        System.out.println(p.getId() + " " + p.getName() + " "+ p.getAge());
+        System.out.println(p1.getId() + " " + p1.getName() + " "+ p1.getAge());
     }
 
     @Override

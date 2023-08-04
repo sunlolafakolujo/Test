@@ -19,5 +19,17 @@ public class Test9 {
 //            }
 //        }else System.out.println("Plan C");
 
+        String c="Hello am I practicing Java";
+
+        if (c.startsWith("H")){
+            c=c.trim();
+            c=c.replace("am", "was");
+            c=c.substring(3,5);
+            System.out.println(c);
+            byte[] b=c.getBytes();
+            for (int i=0; i<b.length; i++){
+                System.out.println(b[i]);
+            }
+        }
     }
 }
