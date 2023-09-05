@@ -14,6 +14,7 @@ public class PalindromeIntegerDemo {
         while(n>0){
             r=n%10;
             sum=(sum*10)+r;
+            System.out.println(sum);
             n=n/10;
         }
         if(temp==sum)
