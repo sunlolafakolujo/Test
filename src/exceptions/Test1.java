@@ -15,7 +15,7 @@ public class Test1 {
             try {
                 throw new FileNotFoundException();
             }catch (FileNotFoundException t){
-                System.out.println();
+                System.out.println("Test");
             }
         }
     }

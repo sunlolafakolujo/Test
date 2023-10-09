@@ -11,7 +11,8 @@ public class Test {
             System.out.println(sheep[3]);
 //            System.out.println("");
         } catch (RuntimeException e) {
-            System.out.println("Error: " + e.getMessage());
+//            System.out.println("Error: " + e.getMessage());
+            e.printStackTrace();
 //            throw new IOException();
 
         }

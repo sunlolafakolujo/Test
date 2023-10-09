@@ -12,9 +12,9 @@ public class WrapperClassDemo {
         System.out.print("Enter value for j: ");
         int j = sc.nextInt();
 
-        System.out.println(Integer.sum(i, j));
-        System.out.println(Integer.rotateLeft(i, j));//32bits(00000000000000000000000000000000)
-        System.out.println(Integer.rotateRight(i, j));
+        System.out.println("Sum: "+Integer.sum(i, j));
+        System.out.println("Rotate left: "+Integer.rotateLeft(i, j));//32bits(00000000000000000000000000000000)
+        System.out.println("Rotate right: "+Integer.rotateRight(i, j));
         System.out.println(Long.rotateLeft(i, j));//64bits(000000000000000000000000000000000000000000000000000000000000000)
         System.out.println(Long.rotateRight(i, j));
         System.out.println(Integer.reverse(2));//to do research
